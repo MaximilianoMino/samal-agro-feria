@@ -1,0 +1,14 @@
+.not-found-container {
+    font-family: "Montserrat";
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.not-found-icon {
+    font-style: normal;
+    font-size: 80px;
+}

@@ -1,0 +1,39 @@
+.batch-link-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 19px;
+    margin-top: 11em;
+    height: 20px;
+    width: 200px;
+}
+
+.batch-link-text {
+    color: #808080;
+    margin-left: 1em;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.batch-link-text::before {
+    border-bottom: 1px solid #808080;
+    content: "";
+    margin-top: 1.14em;
+    width: 35px;
+    margin-left: 1px;
+    position: absolute;
+}
+
+.batch-list-ra-icon {
+    transform: rotate(180deg);
+    margin-top: 0.2em;
+    width: 14px;
+    height: 12px;
+    position: absolute;
+}
+
+@media (min-width: 992px) {
+    .batch-link-container {
+        margin-top: 23em;
+    }
+}
